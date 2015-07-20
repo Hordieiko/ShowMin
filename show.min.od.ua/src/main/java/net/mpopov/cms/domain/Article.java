@@ -21,6 +21,7 @@ import org.hibernate.annotations.NotFoundAction;
 public class Article
 {
 	//text
+	//adas
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE,
             generator = "article_article_id_seq")
