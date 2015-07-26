@@ -20,7 +20,6 @@ import org.hibernate.annotations.NotFoundAction;
 @Table(name = "public.article")
 public class Article
 {
-	//New branch GREENY
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE,
             generator = "article_article_id_seq")
